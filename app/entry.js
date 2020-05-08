@@ -40,3 +40,9 @@ buttonSelfComment.click(() => {
     );
   }
 });
+
+$('#delete_form').on('submit', () => {
+  if (!confirm('Are you sure?')) {
+    return false;
+  }
+});

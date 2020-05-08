@@ -134,6 +134,11 @@ buttonSelfComment.click(function () {
     });
   }
 });
+jquery__WEBPACK_IMPORTED_MODULE_0___default()('#delete_form').on('submit', function () {
+  if (!confirm('Are you sure?')) {
+    return false;
+  }
+});
 
 /***/ }),
 /* 1 */
